@@ -1,0 +1,125 @@
+/*全局部署*/
+html{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+li{
+    list-style-type:none;
+}
+a:hover{
+    color:blue;
+}
+/*注册区域*/
+.login{
+    width:1200px;
+    height:550px;
+    position:relative;
+    margin:auto;
+}
+.login .picture{
+    width:1200px;
+    height:400px;
+    position:absolute;
+    margin:auto;
+    top:20px;
+}
+.login .buttom{
+    width:500px;
+    height:400px;
+    background:#93D5FF;
+    position:absolute;
+    top:50px;
+    right:30px;
+}
+.buttom .text{
+    position:absolute;
+    top:50px;
+    right:20px;
+}
+.text>label{
+    font-size: 20px;
+    margin: -5px;
+}
+.text>input{
+    width:300px;
+    height:25px;
+    margin:30px;
+}
+.buttom .sumbmit>button{
+    width:250px;
+    height: 30px;
+    margin:20px;
+    color:white;
+    background-color:#269CE9;
+    border:1px solid #bbb;
+    border-radius:50px;
+}
+.buttom .sumbmit>button:active{
+    color:#93D5FF;
+    background-color:#269CE9;
+    border:1px solid #269CE9;
+}
+.buttom .buttom1{
+    position:absolute;
+    bottom:80px;
+    left:130px;
+}
+.register{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 15px;
+    /*添加下滑先：text-decoration: underline;*/
+    border-bottom: 1px solid black;
+}
+.register:hover{
+    border-bottom: 1px solid blue;
+}
+
+/*尾部区域*/
+.hr{
+    position:relative;
+    margin:auto;
+}
+.bottom{
+    width:1200px;
+    height:100px;
+    position:relative;
+    margin:auto;
+    /*background-color:*/
+}
+.bottom .picture{
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+.div1 {
+    height: 100px;
+    position: relative;
+}
+
+.div1 {
+    font-size: 24px;
+    float: left;
+    width: 500px;
+    position:absolute;
+    left:230px;
+    top: 20px;
+}
+
+.div2 {
+    height: 100px;
+    position: absolute;
+    left:740px;
+    top:20px;
+}

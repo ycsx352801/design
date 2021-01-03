@@ -1,0 +1,158 @@
+/*全局部署*/
+html{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+li{
+    list-style-type:none;
+}
+a:hover{
+    color:blue;
+}
+
+/*顶部区域*/
+.head{
+    width:1500px;
+    height:350px;
+    position: relative;
+    margin:auto;
+}
+/*登录/注册*/
+.head-buttom{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+/*正文区域*/
+.content {
+    width: 1500px;
+    height: 530px;
+    position: relative;
+    margin: auto;
+}
+
+/*图片区域*/
+.rotation {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    filter:drop-shadow(4px 3px 3px black);
+}
+
+/*文字区域*/
+.text{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top:0px;
+    left: 780px;
+}
+.title{
+    font-size: 32px;
+}
+.price{
+    width: 600px;
+    background-color: #ff694b;
+    position: absolute;
+    top:60px;
+}
+.price>li{
+    float: left;
+    margin-right: 42px;
+}
+.price .money{
+    font-size: 42px;
+    color: white;
+}
+.price .price-pr{
+    margin-top: 20px;
+    margin-left:10px ;
+}
+.information{
+    width: 600px;
+    height: 100px;
+    background-color: #bbbbbb;
+    position: absolute;
+    top:117px;
+    border-radius:10px;
+}
+.information>li{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.explain{
+    position: absolute;
+    top:230px;
+}
+.explain>li{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.shopping{
+    position: absolute;
+    left: 20px;
+    bottom:30px;
+}
+.bu{
+    width: 150px;
+    height: 40px;
+    border-radius:50px;
+    background-color:#269CE9;
+    border:1px solid #bbb;
+}
+.bu:hover{
+    color:#93D5FF;
+    background-color:#269CE9;
+    border:1px solid #269CE9;
+}
+
+/*尾部区域*/
+.hr{
+    position:relative;
+    margin:auto;
+}
+.bottom{
+    width:1200px;
+    height:100px;
+    position:relative;
+    margin:auto;
+    /*background-color:*/
+}
+.bottom .picture{
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+.div1 {
+    height: 100px;
+    position: relative;
+}
+
+.div1 {
+    font-size: 24px;
+    float: left;
+    width: 500px;
+    position:absolute;
+    left:230px;
+    top: 20px;
+}
+
+.div2 {
+    height: 100px;
+    position: absolute;
+    left:740px;
+    top:20px;
+}

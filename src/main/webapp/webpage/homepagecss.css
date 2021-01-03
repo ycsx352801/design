@@ -1,0 +1,194 @@
+/*全局部署*/
+html{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    /*text-decoration:none;*/
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+li{
+    list-style-type:none;
+}
+a:hover{
+    color:blue;
+}
+
+/*顶部区域*/
+.head{
+    width:1500px;
+    height:350px;
+    position: relative;
+    margin:auto;
+}
+/*登录/注册*/
+.head-buttom{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+/*搜索*/
+.head-search{
+    position:absolute;
+    right:10px;
+    bottom:60px;
+}
+/*菜单栏*/
+.head-down{
+    width:1500px;
+    height:50px;
+    position: absolute;
+    bottom:0px;
+}
+.head-menu{
+    width:1500px;
+    height:30px;
+    background-color:skyblue;
+    position:absolute;
+    top:10px;
+}
+.head-menu>li{
+    float:left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+/*正文区域*/
+.content {
+    width: 1500px;
+    height: 920px;
+    position: relative;
+    margin: auto;
+}
+
+/*轮播区域*/
+.rotation {
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.rotation .picture {
+    width: 700px;
+    height: 600px;
+}
+
+.rotation .picture img {
+    float: left;
+    width: 700px;
+    height: 600px;
+}
+
+.rotation .picture img:hover {
+    transform: scale(1.4);
+}
+
+.rotation .picture a {
+    display: none;
+}
+
+.rotation .picture .show {
+    display: block;
+}
+
+.circle{
+    position:absolute;
+    bottom:5px;
+    left:225px;
+}
+
+.circle li {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.circle li:hover {
+    cursor: pointer;
+}
+
+.circle .color {
+    background-color: dodgerblue;
+}
+
+/*精品推荐*/
+.video {
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 760px;
+}
+
+.video div {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+/*热点区域*/
+.hotspot {
+    float: left;
+    position: absolute;
+    top: 620px;
+    left:15px;
+}
+
+.hotspot div {
+    float: left;
+    margin: 5px;
+}
+
+.hotspot div>li {
+    width: 270px;
+}
+
+/*尾部区域*/
+.hr{
+    position:relative;
+    margin:auto;
+}
+.bottom{
+    width:1200px;
+    height:100px;
+    position:relative;
+    margin:auto;
+    /*background-color:*/
+}
+.bottom .picture{
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+.div1 {
+    height: 100px;
+    position: relative;
+}
+
+.div1 {
+    font-size: 24px;
+    float: left;
+    width: 500px;
+    position:absolute;
+    left:230px;
+    top: 20px;
+}
+
+.div2 {
+    height: 100px;
+    position: absolute;
+    left:740px;
+    top:20px;
+}

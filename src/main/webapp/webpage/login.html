@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="logincss.css"/>
+    <script>
+        function validate(){
+            var email=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+            //验证邮箱合法性
+            if(email==''){
+                alert("邮箱不能为空");
+                return  false;
+            }
+            //验证密码
+            if(password==''){
+                alert("密码不能为空");
+                return  false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+<form action="/design/ApplicantLoginServlet" method="post" onsubmit="return validate()">
+    <div class="login">
+        <div class="picture"><img src="picture/bg.jpg" width="1200px" height="500px"/></div>
+        <div class="buttom">
+            <div class="text">
+                <label>邮箱：</label>
+                <input id="email" type="text" name="applicantEmail" placeholder="请输入邮箱" />
+                <br>
+                <label>密码：</label>
+                <input id="password" type="password" name="applicantPwd" placeholder="请输入密码" />
+            </div>
+            <div class="sumbmit">
+                <button type="submit" class="buttom1">登录</button>
+            </div>
+            <div class="register">
+                <a href="register.html">前往注册</a>
+            </div>
+        </div>
+    </div>
+</form>
+<!--尾部区域-->
+<hr class="hr" width="1500px">
+<div class="bottom">
+    <div class="picture">
+        <img src="picture/图标.png" width="130px" height="150px"/>
+    </div>
+    <div class="div1">
+        <li><font size="24" face="黑体">热门导航</font></li>
+        <a><li>网站首页</li></a>
+        <a><li>订单查询</li></a>
+    </div>
+    <div class="div2">
+        <li><font size="24" face="黑体">客户服务</font></li>
+        <a><li>关于我们</li></a>
+        <a><li>售后服务</li></a>
+        <a><li>配送说明</li></a>
+        <a><li>服务声明</li></a>
+    </div>
+</div>
+</body>
+</html>
